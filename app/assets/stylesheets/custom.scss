@@ -1,0 +1,18 @@
+body {
+  font-family: Verdana;
+
+  .remove {
+    color: gray;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+
+  .done {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  .hidden-checkbox {
+    display: none;
+  }
+}

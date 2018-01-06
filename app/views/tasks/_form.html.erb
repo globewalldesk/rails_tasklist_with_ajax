@@ -1,0 +1,5 @@
+<%= form_for @task, remote: true do |f| %>
+  <%= f.text_field :content %>
+  <%= f.check_box :complete, class: "hidden-checkbox" %>
+  <%= f.submit %>
+<% end %>
